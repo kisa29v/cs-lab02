@@ -5,9 +5,7 @@ using namespace std;
 int main()
 {
     cout << "Enter A and B: ";
-    int a, b;
+    int a, b, sum;
     cin >> a >> b;
-    cout << "A and B: ";
-    cout << a;
-    cout << b;
+    cout << "A + B = " << a + b;
 }
