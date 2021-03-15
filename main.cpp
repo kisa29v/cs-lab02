@@ -1,4 +1,5 @@
 #include <iostream>
+#include <math.h>
 
 using namespace std;
 
@@ -10,7 +11,7 @@ int main()
     cout << "A + B = " << a + b << '\n'
          << "A - B = " << a - b << '\n'
          << "A * B = " << a * b << '\n'
-         << "A / B = " << a / b << '\n';
+         << "A деление B = " << a / b << '\n';
     cout << "Выводим минимум";
     if(a<b)
     {
@@ -29,4 +30,5 @@ int main()
     {
         cout << b;
     }
+
 }
